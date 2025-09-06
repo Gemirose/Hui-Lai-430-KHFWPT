@@ -169,12 +169,19 @@ main {
 
 /* --- 详情视图样式 --- */
 #details-view, #course-intro-view {
-    text-align: center;
+    text-align: left;
+}
+
+.details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
 }
 
 .back-button {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     padding: 8px 16px;
     border: 1px solid #ddd;
     background-color: #f8f8f8;
@@ -196,13 +203,15 @@ main {
     display: inline-block;
     background-color: #007aff;
     color: #fff;
-    padding: 12px 35px;
-    border-radius: 8px;
+    padding: 10px 25px;
+    border-radius: 20px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 0;
     transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
 }
 
 .form-button:hover {

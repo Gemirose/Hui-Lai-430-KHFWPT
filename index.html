@@ -9,7 +9,7 @@
 <body>
     <div id="modal-overlay">
         <div id="modal">
-            <h2>添加客服</h2>
+            <h2>扫码添加小白老师</h2>
             <img src="qrcode.jpg" alt="QR Code" id="qr-code">
             <button id="close-button">
                 <span>X</span>
@@ -48,8 +48,10 @@
                 </div>
 
                 <div id="details-view" style="display: none;">
-                    <button class="back-button">&larr; 返回</button>
-                    <a href="#" class="form-button">点击填表</a>
+                    <div class="details-header">
+                        <button class="back-button">&larr; 返回</button>
+                        <button id="show-qr-modal-button" class="form-button">立即点击添加小白老师</button>
+                    </div>
                     <div class="content-text">
                         <p><strong>尊敬的学生家长：</strong></p>
                         <p>您好，依据《广东省教育厅关于进一步做好义务教育校内课后服务工作的通知》（粤教基函〔2021〕17号）等文件要求，秉持政府主导、学校组织、社会参与、公益普惠、学生自愿的原则，结合学生身心发展特点与家长需求，学校联合揭阳市惠来棋院六艺文化产业有限公司、惠来县围棋协会，把艺术、科技、体育等课程作为学校文化知识教育的拓展与补充，为学生提供形式多样的校内课后服务，旨在丰富学生的课余生活，培养学生的兴趣爱好和综合素质。</p>
@@ -127,7 +129,7 @@
             <footer>
                 <nav>
                     <a href="#" id="nav-course-intro-button"><span>课程介绍</span></a>
-                    <a href="#" target="_blank" id="nav-form-button"><span>立即填表</span></a>
+                    <a href="#" id="nav-form-button"><span>添加客服</span></a>
                 </nav>
             </footer>
         </div>
