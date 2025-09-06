@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加客服</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="modal-overlay">
+        <div id="modal">
+            <h2>添加客服</h2>
+            <img src="qrcode.jpg" alt="QR Code" id="qr-code">
+            <button id="close-button">
+                <span>X</span>
+            </button>
+        </div>
+    </div>
+
+    <div id="desktop-wrapper">
+        <div class="desktop-info-panel">
+            <h1>430校内课后服务</h1>
+            <p>扫码添加客服，获取详细报课指南。</p>
+            <img src="qrcode.jpg" alt="客服二维码" class="desktop-qr-code">
+        </div>
+        <div id="main-content">
+            <header>
+                <h1>主页</h1>
+            </header>
+            <main>
+                <div id="main-overview">
+                    <a href="#" id="show-details-link">
+                        <img src="banner.jpg" alt="430校内课后服务 报课指南" id="main-banner">
+                    </a>
+                    <div class="school-selection">
+                        <h4>选择学校填表预报名「通过后将由客服通知」</h4>
+                        <div class="school-list">
+                            <a href="https://www.wjx.cn/vm/OPwkewi.aspx# " class="school-button">惠来县实验学校</a>
+                            <a href="https://www.wjx.cn/vm/OI9Iiqn.aspx# " class="school-button">惠来县东陇镇中心小学</a>
+                            <a href="#" class="school-button">惠来县培贤实验学校</a>
+                            <a href="https://www.wjx.cn/vm/PK2kFqa.aspx#" class="school-button">惠来县葵春学校</a>
+                            <a href="https://www.wjx.cn/vm/est1dhy.aspx# " class="school-button">惠来县墩南小学</a>
+                            <a href="https://www.wjx.cn/vm/YDpODMr.aspx# " class="school-button">惠来县赤山小学</a>
+                            <a href="https://www.wjx.cn/vm/O0iqKQQ.aspx# " class="school-button">惠来县华谢小学</a>
+                            <a href="#" class="school-button">其他学校</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="details-view" style="display: none;">
+                    <button class="back-button">&larr; 返回</button>
+                    <a href="#" class="form-button">点击填表</a>
+                    <div class="content-text">
+                        <p><strong>尊敬的学生家长：</strong></p>
+                        <p>您好，依据《广东省教育厅关于进一步做好义务教育校内课后服务工作的通知》（粤教基函〔2021〕17号）等文件要求，秉持政府主导、学校组织、社会参与、公益普惠、学生自愿的原则，结合学生身心发展特点与家长需求，学校联合揭阳市惠来棋院六艺文化产业有限公司、惠来县围棋协会，把艺术、科技、体育等课程作为学校文化知识教育的拓展与补充，为学生提供形式多样的校内课后服务，旨在丰富学生的课余生活，培养学生的兴趣爱好和综合素质。</p>
+                        <p>为切实做好学生课后服务工作，立足实际情况，针对2025年秋季开展的校内课后服务，现将报名相关事项告知如下：</p>
+                        
+                        <h2>一、报名须知</h2>
+                        <p>（一）本次报名以家长自愿报名为原则，课程内容将结合学校课程改革、教学改革、办学特色、学生学习和成长需求，开设体育、艺术、科技等丰富多样的素质课程。</p>
+                        <p>（二）本次报名的课程根据报名情况进行开设，满15人开班。</p>
+                        <p>（三）报名节奏：<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<strong>报名：</strong>添加客服填表。<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<strong>时间：</strong>9月12日前，先报先得。<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<strong>补报名：</strong>9月13日 （仅针对成班的课程进行补报）</p>
+
+                        <h2>二、课程费用设置</h2>
+                        <p>学校内430课正式课，课程费免费。部分课程所需材料费，球类、艺术类、棋类课程使用材料可主动咨询本课程专业教师提供购买建议，家长自行购买。</p>
+
+                        <h2>课程内容咨询电话：</h2>
+                        <p>18033278512 小白老师<br>
+                        18998972779 小黑老师</p>
+
+                        <h2>报名登录咨询电话：</h2>
+                        <p>19928633998 林老师</p>
+                    </div>
+                </div>
+
+                <div id="course-intro-view" style="display: none;">
+                    <button class="back-button">&larr; 返回</button>
+                    <div class="content-text">
+                        <h2>课程介绍——围棋</h2>
+                        <p>国务院发布的《全民健身计划（2021-2025年）》文件指出，到2025年，经常参加体育锻炼人数比例达到总人口的38.5%：探索建立全国统一的“运动银行”制度和个人运动码；推动武术，围棋，龙舟，健身气功等中华传统体育项目“走出去！”。</p>
+                        <p>关于围棋的“4大最”，你了解吗？为什么国家会号召大家学习围棋？一起来看看......</p>
+                        
+                        <h2>为什么那么多人学围棋？</h2>
+                        <h3>历史“最悠久”</h3>
+                        <p>围棋，起源于中国，古时称为”弈”，围棋说是棋类的鼻祖了。除此之外，围棋诞生于距今4000多年前的古代中国，饱含着深深的传统文化内核。小小的棋盘，能够让孩子们去共情传统国粹的美，学习中华儿女传承千年的汗水与智慧。</p>
+                        
+                        <h3>入门“最简单”</h3>
+                        <p>下围棋，只需要一个四方棋盘，黑白棋子，不限场所便可以进行“思想对弈”，感受小棋子带来的乐趣。</p>
+                        
+                        <h3>规则“最简单”</h3>
+                        <p>围棋规则，不同的教材有不同的归纳和表述，但是综合各种说法，其最基本的规则只有四条：</p>
+                        <p>1、两人下棋，一人执白，一人执黑，每人轮流放一粒棋子在围棋盘的交叉点上，直至终局。</p>
+                        <p>2、气尽提子。这句话是说每粒棋子放到棋盘上，都与相邻的棋子产生关系，叫做“气”，没有“气”的棋，就不能生存，就被吃掉。</p>
+                        <p>3、同形禁复。同样的形状重复出现是要禁止或加以限制的，这就是围棋上的所谓“打劫”，只有这一点稍微复杂一点。但是只要在棋盘上摆出棋形，做些说明，马上就能明白。</p>
+                        <p>4、胜负的计算方法，场上子多即胜。</p>
+                        
+                        <h3>变化“最复杂”</h3>
+                        <p>大家肯定听过一句话：“围棋易学难精”。围棋有千古无重局之称。古人云：“纵横十九道，迷煞多少人。”正因为变化多，围棋给了下棋者追求完美的巨大空间，以及不断变化的创新棋局。棋手正是在这种不断创新和追求完美中得到了愉悦。</p>
+                        
+                        <h2>430围棋课程学什么？</h2>
+                        <p>根据区域、学校的具体需求及学生自身学习情况，课程内容会进行适当调整为了同学们能够更快吸收围棋知识，并融会贯通到实战当中去，老师们在教学上把知识点由浅到深规划，理论与实操并行。</p>
+                        <p>每节课精心设计了提问、互动、对弈、小组指导等环节，通过学（上课）、练（做题）、弈（下棋）形成一个闭环，让同学们在不知不觉中体会围棋的快乐，能够快速成长！</p>
+                        
+                        <h2>围棋比赛和考级</h2>
+                        <p>围棋比赛大家应该听的都比较多，除了校内友谊赛，还会有市级，省级等赛事，只要有勇气，符合比赛条件，都是同学们锻炼的好机会。</p>
+                        <p>那一个小棋手，如何参与考级，获取段位呢？</p>
+                        <p>一个小棋手围棋之路的升级打怪路径是：业余级位→业余段位→职业段位。</p>
+                        
+                        <h3>业余级位-业余段位-职业段位</h3>
+                        <p><strong>业务级位：</strong>数字越小，级位越高。最高的级位是1级，最低的级位是30级。</p>
+                        <p><strong>业务段位：</strong>一般分为8个等级，以阿拉伯数字标注段位，从低到高分别是：1段、2段、3段、4段、5段、6段、7段、8段。</p>
+                        <p><strong>职业段位：</strong>一般分为9个等级，以“汉字”标注段位，从低到高分别初段、二段、三段、四段、五段、六段、七段、八段、九段。</p>
+                        <p>数据显示，一般情况下，从零基础开始，课堂教学加上比赛经验积累，再加上同学们在专业训练基地加倍练习后，经历一个学年的学习后，就可以尝试参加考级啦～</p>
+                        
+                        <h2>在430围棋，孩子得到的不只是围棋还有……</h2>
+                        <p>开发智力，勤于思考</p>
+                        <p>陶冶情操，培养品格</p>
+                        <p>提升专注，解决问题</p>
+                        <p>目标导向，随机应变</p>
+                        <p>挫折教育，复盘内省</p>
+                        <p>围棋作为新六艺琴棋书画数学 语言的其中一环，承载着中国传统文化气息，拥有深深的文化积累，适合全年龄段孩子，赶快来加入我们吧！</p>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <nav>
+                    <a href="#" id="nav-course-intro-button"><span>课程介绍</span></a>
+                    <a href="#" target="_blank" id="nav-form-button"><span>立即填表</span></a>
+                </nav>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
